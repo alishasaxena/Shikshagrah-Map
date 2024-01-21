@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~swiper/swiper-bundle.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.container-lg {
+  // max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}

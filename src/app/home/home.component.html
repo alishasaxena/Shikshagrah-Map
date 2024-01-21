@@ -1,0 +1,29 @@
+<div>
+    <app-about-us></app-about-us>
+    <div class="container">
+        <div class="static-data">
+            <div class="static-card"># Total Districts: {{map.totalDistricts}}</div>
+            <div class="static-card">NAS(Grade 5): {{map.NAS}}
+            </div>
+            <div class="static-card"># Total Schools: {{map.totalSchools}}</div>
+            <div class="static-card"># Total Students: {{map.totalStudents}}</div>
+        </div>
+    </div>
+    <div class="container map-data-flex">
+        <div>
+            <app-india-map></app-india-map>
+            <app-state-map></app-state-map>
+        </div>
+        <div>
+            <div class="dynamic-data">
+                <div class="dynamic-card"> <span># Shikshagraha Districts</span></div>
+                <div class="dynamic-card"><span># Shikshagraha Partners</span></div>
+                <div class="dynamic-card"><span># Program Started</span></div>
+                <div class="dynamic-card"><span># Schools Reached</span></div>
+                <div class="dynamic-card"><span># Students Reached</span></div>
+                <div class="dynamic-card"><span># Educational Leaders Involved</span></div>
+                <div class="dynamic-card"><span># Micro-improvements Triggered</span></div>
+            </div>
+        </div>
+    </div>
+</div>

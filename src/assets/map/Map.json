@@ -1,0 +1,719 @@
+{
+  "India": {
+    "EducationalParameters": {
+      "Districts": 750,
+      "NAS_Grade5": 49,
+      "TotalSchools": 1489000,
+      "TotalStudents": 265200000
+    },
+    "ProgramParameters": {
+      "ShikshagrahaDistricts": 25,
+      "ShikshagrahaPartners": 18,
+      "ProgramsStarted": 8,
+      "SchoolsReached": 0,
+      "StudentsReached": 0,
+      "EducationalLeadersInvolved": 0,
+      "MicroImprovementsTriggered": 0
+    },
+    "States": {
+      "Nagaland": {
+        "EducationalParameters": {
+          "Districts": 4,
+          "NAS_Grade5": 52,
+          "TotalSchools": 12000,
+          "TotalStudents": 230000
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 2,
+          "ShikshagrahaPartners": 5,
+          "ProgramsStarted": 3,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Mon": {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 35.6,
+              "TotalSchools": 196,
+              "TotalStudents": 51860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Peren": {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 38,
+              "TotalSchools": 126,
+              "TotalStudents": 21428
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Kiphire": {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 39,
+              "TotalSchools": 98,
+              "TotalStudents": 16694
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Teunsang": {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 41.8,
+              "TotalSchools": 181,
+              "TotalStudents": 37914
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "ProgramsStarted": 0,
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Arunachal Pradesh ": {
+        "EducationalParameters": {
+          "Districts": 26,
+          "NAS_Grade5": 43.1,
+          "TotalSchools": 3603,
+          "TotalStudents": 354382
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Changlang": {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 44.9,
+              "TotalSchools": 40,
+              "TotalStudents": 35358
+            },
+            "ProgramParameters": {
+              "ShikshagrahPartner": "IFET",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Assam": {
+        "EducationalParameters": {
+          "Districts": 31,
+          "NAS_Grade5": 51.9,
+          "TotalSchools": 60859,
+          "TotalStudents": 7544960
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 3,
+          "ShikshagrahaPartners": 2,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Chirang": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 42.5,
+              "TotalSchools": 840,
+              "TotalStudents": 125006
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Sunbird Trust",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Morigaon": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 50.9,
+              "TotalSchools": 1206,
+              "TotalStudents": 219607
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "NEAID",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Kokrajhar": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 53.6,
+              "TotalSchools": 1463,
+              "TotalStudents": 226579
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Sunbird Trust",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Himachal Pradesh": {
+        "EducationalParameters": {
+          "Districts": 12,
+          "NAS_Grade5": 44.7,
+          "TotalSchools": 18028,
+          "TotalStudents": 1437022
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Kangra": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 44.9,
+              "TotalSchools": 1660,
+              "TotalStudents": 247134
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Aavishkaar",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Chattisgarh": {
+        "EducationalParameters": {
+          "Districts": 27,
+          "NAS_Grade5": 41.8,
+          "TotalSchools": 56512,
+          "TotalStudents": 5992197
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 2,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Sukma": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 35.6,
+              "TotalSchools": 1574,
+              "TotalStudents": 50016
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Shiksharth",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Kondagaon": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 35.6,
+              "TotalSchools": 1234,
+              "TotalStudents": 116429
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Shiksharth",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Jharkhand": {
+        "EducationalParameters": {
+          "Districts": 24,
+          "NAS_Grade5": 46.1,
+          "TotalSchools": 44855,
+          "TotalStudents": 7970750
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Gumla": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 37.2,
+              "TotalSchools": 1693,
+              "TotalStudents": 227183
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Prajayatna",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Odisha": {
+        "EducationalParameters": {
+          "Districts": 30,
+          "NAS_Grade5": 49.4,
+          "TotalSchools": 62291,
+          "TotalStudents": 7576893
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 2,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Kalahandi": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 41.9,
+              "TotalSchools": 2016,
+              "TotalStudents": 272549
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Odisha rising foundation",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Koraput": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 42.8,
+              "TotalSchools": 840,
+              "TotalStudents": 256390
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Odisha rising foundation",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Bihar": {
+        "EducationalParameters": {
+          "Districts": 38,
+          "NAS_Grade5": 48,
+          "TotalSchools": 93165,
+          "TotalStudents": 21896037
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 5,
+          "ShikshagrahaPartners": 4,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Bhagalpur": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 45.1,
+              "TotalSchools": 900,
+              "TotalStudents": 732750
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Banka": {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 40.4,
+              "TotalSchools": 1217,
+              "TotalStudents": 489283
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Madhepura": {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 57.6,
+              "TotalSchools": 810,
+              "TotalStudents": 558960
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Happy Horizon Trust",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Gaya": {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 44.5,
+              "TotalSchools": 3094,
+              "TotalStudents": 1058245
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Karunodaya Foundation",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Muzzafarpur": {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 49.2,
+              "TotalSchools": 3016,
+              "TotalStudents": 1175833
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Uttar Pradesh": {
+        "EducationalParameters": {
+          "Districts": 75,
+          "NAS_Grade5": 0,
+          "TotalSchools": 258054,
+          "TotalStudents": 18648952
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 3,
+          "ShikshagrahaPartners": 3,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Rae Bareli": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 47.7,
+              "TotalSchools": 3956,
+              "TotalStudents": 522604
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Barefoot",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Sambal": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 46.1,
+              "TotalSchools": 1040,
+              "TotalStudents": 468697
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Bahraich": {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 55.1,
+              "TotalSchools": 3956,
+              "TotalStudents": 522604
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Prajayatna",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Haryana": {
+        "EducationalParameters": {
+          "Districts": 22,
+          "NAS_Grade5": 30.3,
+          "TotalSchools": 23726,
+          "TotalStudents": 2543306
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Jhajjar": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 51.3,
+              "TotalSchools": 292,
+              "TotalStudents": 176417
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Alohomora",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Jammu & Kashmir": {
+        "EducationalParameters": {
+          "Districts": 20,
+          "NAS_Grade5": 38.9,
+          "TotalSchools": 28805,
+          "TotalStudents": 1437327
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Srinagar": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 62.6,
+              "TotalSchools": 512,
+              "TotalStudents": 162405
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Eduweave",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Karnataka": {
+        "EducationalParameters": {
+          "Districts": 31,
+          "NAS_Grade5": 33,
+          "TotalSchools": 76450,
+          "TotalStudents": 5078088
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 5,
+          "ShikshagrahaPartners": 3,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Mysuru": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 40.3,
+              "TotalSchools": 1875,
+              "TotalStudents": 443914
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Makkala Jagrithi",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Kalaburgi/ Gulbarga": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 44.5,
+              "TotalSchools": 1775,
+              "TotalStudents": 561253
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Raichur": {
+            "EducationalParameters": {
+              "Type": "Aspirational",
+              "NAS_Grade5": 50.5,
+              "TotalSchools": 2532,
+              "TotalStudents": 420860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Yadgir": {
+            "EducationalParameters": {
+              "Type": "Aspirational",
+              "NAS_Grade5": 50.5,
+              "TotalSchools": 1607,
+              "TotalStudents": 265952
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          },
+          "Chamrajnagar": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 47.1,
+              "TotalSchools": 748,
+              "TotalStudents": 126988
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "SVYM",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      },
+      "Tamil Nadu": {
+        "EducationalParameters": {
+          "Districts": 38,
+          "NAS_Grade5": 27.7,
+          "TotalSchools": 58801,
+          "TotalStudents": 4717042
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "Districts": {
+          "Nagapattinam": {
+            "EducationalParameters": {
+              "Type": "Aspirational/Tribal",
+              "NAS_Grade5": 48.2,
+              "TotalSchools": 1364,
+              "TotalStudents": 236365
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Vidya Vidhai",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

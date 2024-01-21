@@ -1,0 +1,49 @@
+:app-root {
+  --secondary-color: #9c6644;
+  --primary-color: #7f5539;
+  --lightBrown: #b08968;
+  --beige: #ddb892;
+}
+.static-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  grid-column-start: auto;
+  width: 30%;
+}
+.static-card {
+  width: 300px;
+  border: 2px solid #b08968;
+  padding: 0.8rem;
+  color: #7f5539;
+}
+
+.dynamic-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dynamic-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #7f5539;
+  padding: 1rem;
+}
+.dynamic-card span {
+  font-size: 0.8rem;
+}
+.map-data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+.map-data-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

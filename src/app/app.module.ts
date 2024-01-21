@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { IndiaMapComponent } from './india-map/india-map.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StateMapComponent } from './state-map/state-map.component';
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndiaMapComponent,
-    StateMapComponent
+    StateMapComponent,
+    HomeComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
