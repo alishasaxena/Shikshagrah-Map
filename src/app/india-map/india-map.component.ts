@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from "@angular/common/http";
 @Component({
@@ -7,26 +7,42 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ['./india-map.component.scss']
 })
 export class IndiaMapComponent implements OnInit {
+  @Output() stateHover = new EventEmitter<string>();
   title = "map1";
   tooltip: string;
-  constructor(private http: HttpClient, private router: Router) {}
+
+  // onStateHover(state: string) {
+  //   this.stateHover.emit(state);
+  //   // console.log('state', state)
+  // }
+
+  @Output() notifyParent: EventEmitter<string> = new EventEmitter<string>();
+
+  @Output() mouseIn: EventEmitter<string> = new EventEmitter<string>();
+
+  @Output() mouseOut: EventEmitter<string> = new EventEmitter<string>();
+
+
+  constructor(private http: HttpClient, private router: Router) { }
   ngOnInit(): void {
 
   }
 
-  onClick(value) {
+  onClick(value: any) {
     console.log(value);
     var state = value.split(" ").join("");
-    this.router.navigate(["state", state]);
+    // this.router.navigate(["state", state]);
+    this.notifyParent.emit(state)
   }
 
-  over_state(value) {
+  over_state(value: any) {
+    this.mouseIn.emit(value)
+    this.stateHover.emit(value);
     this.tooltip = value;
-    console.log("hello");
     console.log(value);
   }
-
-  out_state(value) {
+  out_state(value: any) {
+    this.mouseOut.emit()
     this.tooltip = "";
     console.log(value);
   }

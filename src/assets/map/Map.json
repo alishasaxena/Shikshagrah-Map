@@ -15,8 +15,8 @@
       "EducationalLeadersInvolved": 0,
       "MicroImprovementsTriggered": 0
     },
-    "States": {
-      "Nagaland": {
+    "States": [
+      {
         "EducationalParameters": {
           "Districts": 4,
           "NAS_Grade5": 52,
@@ -32,8 +32,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Mon": {
+        "StateName": "Nagaland",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Tribal district",
               "NAS_Grade5": 35.6,
@@ -46,9 +47,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Mon"
           },
-          "Peren": {
+          {
             "EducationalParameters": {
               "Type": "Tribal district",
               "NAS_Grade5": 38,
@@ -61,9 +63,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Peren"
           },
-          "Kiphire": {
+          {
             "EducationalParameters": {
               "Type": "Tribal district",
               "NAS_Grade5": 39,
@@ -76,9 +79,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kiphire"
           },
-          "Teunsang": {
+          {
             "EducationalParameters": {
               "Type": "Tribal district",
               "NAS_Grade5": 41.8,
@@ -92,11 +96,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Teunsang"
           }
-        }
+        ]
       },
-      "Arunachal Pradesh ": {
+      {
         "EducationalParameters": {
           "Districts": 26,
           "NAS_Grade5": 43.1,
@@ -112,8 +117,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Changlang": {
+        "StateName": "Arunachal Pradesh",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Tribal district",
               "NAS_Grade5": 44.9,
@@ -126,11 +132,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Changlang"
           }
-        }
+        ]
       },
-      "Assam": {
+      {
         "EducationalParameters": {
           "Districts": 31,
           "NAS_Grade5": 51.9,
@@ -146,8 +153,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Chirang": {
+        "StateName": "Assam",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 42.5,
@@ -160,9 +168,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Chirang"
           },
-          "Morigaon": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 50.9,
@@ -175,9 +184,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Morigaon"
           },
-          "Kokrajhar": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 53.6,
@@ -190,11 +200,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kokrajhar"
           }
-        }
+        ]
       },
-      "Himachal Pradesh": {
+      {
         "EducationalParameters": {
           "Districts": 12,
           "NAS_Grade5": 44.7,
@@ -210,8 +221,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Kangra": {
+        "StateName": "Himachal Pradesh",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 44.9,
@@ -224,11 +236,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kangra"
           }
-        }
+        ]
       },
-      "Chattisgarh": {
+      {
         "EducationalParameters": {
           "Districts": 27,
           "NAS_Grade5": 41.8,
@@ -244,8 +257,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Sukma": {
+        "StateName": "Chattisgarh",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 35.6,
@@ -258,9 +272,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Sukma"
           },
-          "Kondagaon": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 35.6,
@@ -273,11 +288,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kondagaon"
           }
-        }
+        ]
       },
-      "Jharkhand": {
+      {
         "EducationalParameters": {
           "Districts": 24,
           "NAS_Grade5": 46.1,
@@ -293,8 +309,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Gumla": {
+        "StateName": "Jharkhand",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 37.2,
@@ -307,11 +324,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Gumla"
           }
-        }
+        ]
       },
-      "Odisha": {
+      {
         "EducationalParameters": {
           "Districts": 30,
           "NAS_Grade5": 49.4,
@@ -327,8 +345,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Kalahandi": {
+        "StateName": "Odisha",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 41.9,
@@ -341,9 +360,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kalahandi"
           },
-          "Koraput": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 42.8,
@@ -356,11 +376,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Koraput"
           }
-        }
+        ]
       },
-      "Bihar": {
+      {
         "EducationalParameters": {
           "Districts": 38,
           "NAS_Grade5": 48,
@@ -376,8 +397,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Bhagalpur": {
+        "StateName": "Bihar",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 45.1,
@@ -390,9 +412,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Bhagalpur"
           },
-          "Banka": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational district",
               "NAS_Grade5": 40.4,
@@ -405,9 +428,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Banka"
           },
-          "Madhepura": {
+          {
             "EducationalParameters": {
               "Type": "NA",
               "NAS_Grade5": 57.6,
@@ -420,9 +444,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Madhepura"
           },
-          "Gaya": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational district",
               "NAS_Grade5": 44.5,
@@ -435,9 +460,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Gaya"
           },
-          "Muzzafarpur": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational district",
               "NAS_Grade5": 49.2,
@@ -450,11 +476,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Muzzafarpur"
           }
-        }
+        ]
       },
-      "Uttar Pradesh": {
+      {
         "EducationalParameters": {
           "Districts": 75,
           "NAS_Grade5": 0,
@@ -470,8 +497,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Rae Bareli": {
+        "StateName": "Uttar Pradesh",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 47.7,
@@ -484,9 +512,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Rae Bareli"
           },
-          "Sambal": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 46.1,
@@ -499,9 +528,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Sambal"
           },
-          "Bahraich": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational district",
               "NAS_Grade5": 55.1,
@@ -514,11 +544,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Bahraich"
           }
-        }
+        ]
       },
-      "Haryana": {
+      {
         "EducationalParameters": {
           "Districts": 22,
           "NAS_Grade5": 30.3,
@@ -534,8 +565,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Jhajjar": {
+        "StateName": "Haryana",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 51.3,
@@ -548,11 +580,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Jhajjar"
           }
-        }
+        ]
       },
-      "Jammu & Kashmir": {
+      {
         "EducationalParameters": {
           "Districts": 20,
           "NAS_Grade5": 38.9,
@@ -568,8 +601,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Srinagar": {
+        "StateName": "Jammu & Kashmir",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 62.6,
@@ -582,11 +616,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Srinagar"
           }
-        }
+        ]
       },
-      "Karnataka": {
+      {
         "EducationalParameters": {
           "Districts": 31,
           "NAS_Grade5": 33,
@@ -602,8 +637,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Mysuru": {
+        "StateName": "Karnataka",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 40.3,
@@ -616,9 +652,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Mysuru"
           },
-          "Kalaburgi/ Gulbarga": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 44.5,
@@ -631,9 +668,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Kalaburgi/ Gulbarga"
           },
-          "Raichur": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational",
               "NAS_Grade5": 50.5,
@@ -646,9 +684,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Raichur"
           },
-          "Yadgir": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational",
               "NAS_Grade5": 50.5,
@@ -661,9 +700,10 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Yadgir"
           },
-          "Chamrajnagar": {
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 47.1,
@@ -676,11 +716,12 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Chamrajnagar"
           }
-        }
+        ]
       },
-      "Tamil Nadu": {
+      {
         "EducationalParameters": {
           "Districts": 38,
           "NAS_Grade5": 27.7,
@@ -696,8 +737,9 @@
           "EducationalLeadersInvolved": 0,
           "MicroImprovementsTriggered": 0
         },
-        "Districts": {
-          "Nagapattinam": {
+        "StateName": "Tamil Nadu",
+        "Districts": [
+          {
             "EducationalParameters": {
               "Type": "Aspirational/Tribal",
               "NAS_Grade5": 48.2,
@@ -710,10 +752,11 @@
               "StudentsReached": 0,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 0
-            }
+            },
+            "DistrictName": "Nagapattinam"
           }
-        }
+        ]
       }
-    }
+    ]
   }
 }

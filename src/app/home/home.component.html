@@ -1,29 +1,98 @@
 <div>
-    <app-about-us></app-about-us>
-    <div class="container">
-        <div class="static-data">
-            <div class="static-card"># Total Districts: {{map.totalDistricts}}</div>
-            <div class="static-card">NAS(Grade 5): {{map.NAS}}
-            </div>
-            <div class="static-card"># Total Schools: {{map.totalSchools}}</div>
-            <div class="static-card"># Total Students: {{map.totalStudents}}</div>
-        </div>
+  <app-about-us></app-about-us>
+  <div class="container">
+    <div class="static-data">
+      <div class="static-card">
+        # Total Districts:
+        {{
+          InitialEducationalParameters?.Districts
+            ? InitialEducationalParameters?.Districts
+            : 0
+        }}
+      </div>
+      <div class="static-card">
+        NAS(Grade 5):
+        {{ InitialEducationalParameters?.NAS_Grade5 ? InitialEducationalParameters?.NAS_Grade5 : 0 }}
+      </div>
+      <div class="static-card">
+        # Total Schools:
+        {{
+          InitialEducationalParameters?.TotalSchools
+            ? InitialEducationalParameters?.TotalSchools
+            : 0
+        }}
+      </div>
+      <div class="static-card">
+        # Total Students:
+        {{
+          InitialEducationalParameters?.TotalStudents
+            ? InitialEducationalParameters?.TotalStudents
+            : 0
+        }}
+      </div>
     </div>
-    <div class="container map-data-flex">
-        <div>
-            <app-india-map></app-india-map>
-            <app-state-map></app-state-map>
-        </div>
-        <div>
-            <div class="dynamic-data">
-                <div class="dynamic-card"> <span># Shikshagraha Districts</span></div>
-                <div class="dynamic-card"><span># Shikshagraha Partners</span></div>
-                <div class="dynamic-card"><span># Program Started</span></div>
-                <div class="dynamic-card"><span># Schools Reached</span></div>
-                <div class="dynamic-card"><span># Students Reached</span></div>
-                <div class="dynamic-card"><span># Educational Leaders Involved</span></div>
-                <div class="dynamic-card"><span># Micro-improvements Triggered</span></div>
-            </div>
-        </div>
+  </div>
+  <div class="container map-data-flex">
+    <div>
+     <app-india-map
+        *ngIf="!selectedState"
+        (notifyParent)="onStateClickHandler($event)"
+        (mouseIn)="onMouseInHandler($event)"
+        (mouseOut)="onMouseOutHandler($event)"
+        (stateHover)="onStateHover($event)"
+      ></app-india-map>
+      <app-state-map
+        *ngIf="selectedState"
+        [state]="selectedState"
+      ></app-state-map>
+      <!-- <app-district-page>
+        
+      </app-district-page> -->
     </div>
+    <div>
+      <div class="dynamic-data">
+        <div class="dynamic-card">
+        <span># Shikshagraha Districts: {{
+        InitialProgramParameters?.ShikshagrahaDistricts
+        ? InitialProgramParameters?.ShikshagrahaDistricts
+        : 0
+        }}
+       </span></div>
+        <div class="dynamic-card"><span># Shikshagraha Partners: {{
+        InitialProgramParameters?.ShikshagrahaPartners
+        ? InitialProgramParameters?.ShikshagrahaPartners
+        : 0
+        }}</span></div>
+        <div class="dynamic-card"><span># Program Started: {{
+        InitialProgramParameters?.ProgramsStarted
+        ? InitialProgramParameters?.ProgramsStarted
+        : 0
+        }}</span></div>
+        <div class="dynamic-card"><span># Schools Reached: {{
+        InitialProgramParameters?.SchoolsReached
+        ? InitialProgramParameters?.SchoolsReached
+        : 0
+        }}</span></div>
+        <div class="dynamic-card"><span># Students Reached: {{
+        InitialProgramParameters?.StudentsReached
+        ? InitialProgramParameters?.StudentsReached
+        : 0
+        }}</span></div>
+        <div class="dynamic-card">
+          <span># Educational Leaders Involved: {{
+          InitialProgramParameters?.EducationalLeadersInvolved
+          ? InitialProgramParameters?.EducationalLeadersInvolved
+          : 0
+          }}</span>
+        </div>
+        <div class="dynamic-card">
+          <span># Micro-improvements Triggered: {{
+          InitialProgramParameters?.MicroImprovementsTriggered
+          ? InitialProgramParameters?.MicroImprovementsTriggered
+          : 0
+          }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
