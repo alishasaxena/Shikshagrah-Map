@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from "@angular/common/http";
 @Component({
@@ -10,6 +10,8 @@ export class IndiaMapComponent implements OnInit {
   @Output() stateHover = new EventEmitter<string>();
   title = "map1";
   tooltip: string;
+
+  @Input() jsonData: any
 
   // onStateHover(state: string) {
   //   this.stateHover.emit(state);
@@ -25,7 +27,7 @@ export class IndiaMapComponent implements OnInit {
 
   constructor(private http: HttpClient, private router: Router) { }
   ngOnInit(): void {
-
+    console.log('jsonData', this.jsonData)
   }
 
   onClick(value: any) {
@@ -39,8 +41,9 @@ export class IndiaMapComponent implements OnInit {
     this.mouseIn.emit(value)
     this.stateHover.emit(value);
     this.tooltip = value;
-    console.log(value);
+    console.log(value, 'state:console');
   }
+
   out_state(value: any) {
     this.mouseOut.emit()
     this.tooltip = "";

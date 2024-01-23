@@ -43,7 +43,22 @@
   margin-top: 2rem;
 }
 .map-data-flex {
+  position: relative;
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.noDataFound {
+  position: absolute;
+  right: 40%;
+  top: 20%;
+  font-size: 1.2rem;
+  color: #561c24;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
 }

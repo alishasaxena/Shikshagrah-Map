@@ -16,3 +16,15 @@ p {
     stroke: rgba(61, 7, 255, 0.188);
   }
 }
+
+/* state-map.component.scss */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  pointer-events: none;
+}

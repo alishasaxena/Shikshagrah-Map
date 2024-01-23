@@ -2,12 +2,20 @@
   <app-about-us></app-about-us>
   <div class="container">
     <div class="static-data">
-      <div class="static-card">
+      <div *ngIf="!districtReached" class="static-card">
         # Total Districts:
         {{
           InitialEducationalParameters?.Districts
             ? InitialEducationalParameters?.Districts
             : 0
+        }}
+      </div>
+      <div *ngIf="districtReached" class="static-card">
+        # Type:
+        {{
+        InitialEducationalParameters?.Type
+        ? InitialEducationalParameters?.Type
+        : 0
         }}
       </div>
       <div class="static-card">
@@ -40,18 +48,21 @@
         (mouseIn)="onMouseInHandler($event)"
         (mouseOut)="onMouseOutHandler($event)"
         (stateHover)="onStateHover($event)"
-      ></app-india-map>
+        [jsonData]="jsonData"      
+        ></app-india-map>
       <app-state-map
+        (notifyParent)="onStateClickHandler($event)"
         *ngIf="selectedState"
         [state]="selectedState"
+        (districtHover)="onDistrictHover($event)"
       ></app-state-map>
-      <!-- <app-district-page>
+      <app-district-page *ngIf="selectedDistrict">
         
-      </app-district-page> -->
+      </app-district-page>
     </div>
     <div>
       <div class="dynamic-data">
-        <div class="dynamic-card">
+        <div *ngIf="!districtReached" class="dynamic-card">
         <span># Shikshagraha Districts: {{
         InitialProgramParameters?.ShikshagrahaDistricts
         ? InitialProgramParameters?.ShikshagrahaDistricts
@@ -63,7 +74,7 @@
         ? InitialProgramParameters?.ShikshagrahaPartners
         : 0
         }}</span></div>
-        <div class="dynamic-card"><span># Program Started: {{
+         <div *ngIf="!districtReached" class="dynamic-card"><span># Program Started: {{
         InitialProgramParameters?.ProgramsStarted
         ? InitialProgramParameters?.ProgramsStarted
         : 0
@@ -93,6 +104,15 @@
           }}</span>
         </div>
       </div>
+    </div>
+
+    <div *ngIf="noData" class="noDataFound">
+      <div>
+        <span class="material-symbols-outlined">
+          pin_drop
+        </span> No Shikshagraha data found for this state.
+      </div>
+     
     </div>
   </div>
 </div>

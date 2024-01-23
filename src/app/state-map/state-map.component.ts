@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, SimpleChanges } from "@angular/core";
+import { Component, EventEmitter, Input, OnInit, Output, SimpleChanges } from "@angular/core";
 import * as d3 from "d3";
 import { ActivatedRoute, Params } from "@angular/router";
 import * as topojson from "topojson";
@@ -14,6 +14,10 @@ export class StateMapComponent implements OnInit {
   public name: string = "d3";
 
   @Input("state") result: string = "";
+  @Output() notifyParent: EventEmitter<string> = new EventEmitter<string>();
+  @Output() districtHover = new EventEmitter<string>();
+
+
   constructor(private route: ActivatedRoute) { }
   ngOnInit(): void {
     // var this.result: string;
@@ -36,6 +40,7 @@ export class StateMapComponent implements OnInit {
     let g = svg.append("g");
     console.log("outside json calling1");
     var file = "../assets/states-map/" + this.result + ".json";
+    var districtHover = this.districtHover;
     console.log(file);
     d3.json(file).then(function (topology: any) {
       // <---- Renamed it from data to topology
@@ -58,7 +63,7 @@ export class StateMapComponent implements OnInit {
               return id;
             })
             .attr("stroke-opacity", 1)
-            .attr("fill", "#808080")
+            .attr("fill", "#7f5539") //changes
             .attr("stroke", "#ffff")
             .attr("stroke-width", 0)
             .style("cursor", "pointer")
@@ -67,13 +72,15 @@ export class StateMapComponent implements OnInit {
               console.log(d.srcElement.id)
               // var id = d.properties.district.split(" ").join("");
               var id = d.srcElement.id;
-              console.log(id);
+              console.log(id, 'abhishek');
+              districtHover.emit(id); // change
               // d3.select();
               d3.select("#" + id)
                 .attr("stroke-width", 2)
                 .attr("stroke", "#ffff");
               d3.select("#" + id).attr("fill", "#000");
-              console.log("#" + id);
+              console.log("#" + id, 'xyz');
+              console.log('districtName', id)
             })
             .on("mouseleave", (d) => {
               console.log(d);
@@ -85,7 +92,11 @@ export class StateMapComponent implements OnInit {
             })
             .on("touchstart", (d) => { })
             .on("click", (d, i) => {
-              console.log(d);
+              // var district = d.split(" ").join("");
+              // this.notifyParent.emit(district)
+              var city = d.srcElement.__data__.properties.district;
+              console.log('city', city.split(" ").join(""));
+              this.notifyParent.emit(city)
             });
           sel.append("title").text((d: any, i) => {
             return d.properties.district;
