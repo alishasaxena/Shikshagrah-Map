@@ -62,3 +62,23 @@
     gap: 0.6rem;
   }
 }
+
+.stateName {
+  position: absolute;
+  right: 50%;
+  top: 20%;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 500;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  span {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}

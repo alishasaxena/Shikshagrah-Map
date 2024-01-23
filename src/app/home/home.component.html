@@ -15,7 +15,7 @@
         {{
         InitialEducationalParameters?.Type
         ? InitialEducationalParameters?.Type
-        : 0
+        : 'Type'
         }}
       </div>
       <div class="static-card">
@@ -57,7 +57,6 @@
         (districtHover)="onDistrictHover($event)"
       ></app-state-map>
       <app-district-page *ngIf="selectedDistrict">
-        
       </app-district-page>
     </div>
     <div>
@@ -69,10 +68,15 @@
         : 0
         }}
        </span></div>
-        <div class="dynamic-card"><span># Shikshagraha Partners: {{
+        <div *ngIf="!districtReached" class="dynamic-card"><span># Shikshagraha Partners: {{
         InitialProgramParameters?.ShikshagrahaPartners
         ? InitialProgramParameters?.ShikshagrahaPartners
         : 0
+        }}</span></div>
+        <div *ngIf="districtReached" class="dynamic-card"><span># Shikshagraha Partners: {{
+              InitialProgramParameters?.ShikshagrahaPartner
+              ? InitialProgramParameters?.ShikshagrahaPartner
+              : 0
         }}</span></div>
          <div *ngIf="!districtReached" class="dynamic-card"><span># Program Started: {{
         InitialProgramParameters?.ProgramsStarted
@@ -106,13 +110,23 @@
       </div>
     </div>
 
-    <div *ngIf="noData" class="noDataFound">
+    <div *ngIf="noData && !districtReached" class="noDataFound">
       <div>
         <span class="material-symbols-outlined">
           pin_drop
-        </span> No Shikshagraha data found for this state.
+        </span> No Shikshagraha data found for this<span *ngIf="!districtReached">state</span><span *ngIf="districtReached">district</span>.
       </div>
      
+    </div>
+    <div *ngIf="!noData && stateName || districtName" class="stateName">
+      <div>
+        <!-- <span  class="material-symbols-outlined">
+          pin_drop
+        </span> -->
+        <span *ngIf="!districtReached">{{stateName}}</span>
+        <span *ngIf="districtReached">{{districtName}}</span>
+      </div>
+    
     </div>
   </div>
 </div>

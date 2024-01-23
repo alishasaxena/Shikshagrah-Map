@@ -88,7 +88,8 @@ export class StateMapComponent implements OnInit {
               d3.select("#" + id)
                 .attr("stroke-width", 0)
                 .attr("stroke", "#fffff");
-              d3.select("#" + id).attr("fill", "#808080");
+              d3.select("#" + id).attr("fill", "#7f5539");
+             
             })
             .on("touchstart", (d) => { })
             .on("click", (d, i) => {

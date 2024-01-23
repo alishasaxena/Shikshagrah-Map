@@ -14,7 +14,11 @@ export class HomeComponent implements OnInit {
   states: any;
   noData: boolean = false;
   districtReached: boolean = false;
-  
+  stateName: string;
+  districtName: string;
+
+  selectState: string;
+
   public selectedState = ""
   public selectedDistrict = ''
   constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient) { }
@@ -39,6 +43,8 @@ export class HomeComponent implements OnInit {
 
     // this.EducationalParameters = this.InitialEducationalParameters
   }
+
+
 
   setQueryParams(state: string) {
     // Get the current query parameters
@@ -66,8 +72,9 @@ export class HomeComponent implements OnInit {
       if (stateData) {
         this.InitialEducationalParameters = stateData?.EducationalParameters;
         this.InitialProgramParameters = stateData?.ProgramParameters;
+        this.stateName = stateData?.StateName;
         this.noData = false;
-
+        this.selectState = state // alisha is storing state here
       } else {
         this.InitialEducationalParameters = '';
         this.InitialProgramParameters = '';
@@ -77,31 +84,29 @@ export class HomeComponent implements OnInit {
     console.log('stateData', stateData);
 }
 
+// district
  onDistrictHover(district: string) {
    this.updateEducationalAndProgramParamsCity(district)
     console.log('zyx', district) 
   }
- updateEducationalAndProgramParamsCity(district: string) {
-   for (const state of this.states) {
-    for (const districtData of state.Districts) {
-      // console.log('districtData', districtData.DistrictName)
-      if (districtData.DistrictName === district) {
-        this.InitialEducationalParameters = districtData?.EducationalParameters;
-        this.InitialProgramParameters = districtData?.ProgramParameters;
-        this.noData = false;
+  updateEducationalAndProgramParamsCity(district: string) {
+    const selectedStateData = this.states.find((stateSelected: any) => stateSelected.StateName === this.selectState);
+    const districtData = selectedStateData.Districts.find((districtSelected: any) => districtSelected.DistrictName === district)
 
-        console.log('InitialEducationalParameters', this.InitialEducationalParameters);
-        console.log('InitialProgramParameters', this.InitialProgramParameters)
-      } else {
-        this.InitialEducationalParameters = '';
-        this.InitialProgramParameters = '';
-        this.noData = true;
-      }
-    }
-  }
+    console.log('selectedStateData', districtData)
+     if (districtData) {
+          this.InitialEducationalParameters = districtData?.EducationalParameters;
+          this.InitialProgramParameters = districtData?.ProgramParameters;
+          this.noData = false;
+     } else {
+       this.InitialEducationalParameters = '';
+       this.InitialProgramParameters = '';
+       this.noData = true;
+     }
 
-
-    console.log('districtdata', district);
+  console.log('InitialEducationalParameters', this.InitialEducationalParameters);
+  console.log('InitialProgramParameters', this.InitialProgramParameters)
+  console.log('districtdata', district);
 }
 
 
@@ -117,15 +122,18 @@ export class HomeComponent implements OnInit {
     this.setQueryParams(state)
   }
 
-  onDistrictClickHandler(district: string) {
+   onDistrictClickHandler(district: string) {
     this.selectedState = ""
     console.log('Data received from child:', district);
-
     setTimeout(() => {
-      this.selectedDistrict = district
+      this.selectedDistrict = district;
+      this.districtReached = true;
+      this.InitialEducationalParameters = '';
+      this.InitialProgramParameters = '';
+      this.districtName = '';
     }, 1);
-     }
-
+    // this.setQueryParams(state)
+  }
 
   onMouseOutHandler(event) {
     console.log("onMouseOutHandler")
